@@ -3,7 +3,12 @@
 (function(){
 
     function Start(){
-        console.log("App Started!");
+        var title= document.title;
+
+
+
+
+        console.log("title " + title);
     }
     window.onload = Start;
 })();
